@@ -5,11 +5,11 @@ const Header = () => {
             <div className="logo_wrapper">Nueva <span>Acrópolis</span> </div>
             <div className="menu_container">
                 <span className="menu">
-                    <span>Inicio</span>
-                    <span>Contenido</span>
-                    <span>Beneficios</span>
-                    <span>¿Quiénes Somos?</span>
-                    <span>Contactanos</span>
+                    <a>Inicio</a>
+                    <a>Contenido</a>
+                    <a>Beneficios</a>
+                    <a>¿Quiénes Somos?</a>
+                    <a>Contactanos</a>
                 </span>
             </div>
 
