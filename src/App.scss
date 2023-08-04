@@ -183,7 +183,7 @@ body{
   }
   .swiper_container {
     justify-content: center;
-    height: 33rem;
+    height: 34rem;
     width: 22rem;
     img {
       width: 20px;
@@ -201,7 +201,7 @@ body{
     width: 95%;
     display: grid;
     .left_content_wrapper{
-      width: 95%;
+      width: 100%;
       padding: auto;
       h1{
         font-size: 5.3vw;
@@ -223,7 +223,7 @@ body{
     }
 
     .right_content_wrapper{
-      width: 95%;
+      width: 100%;
       @extend .dflex;
     }
   }
@@ -265,9 +265,9 @@ body{
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .slider-controler .swiper-button-next {
-    left: 93% !important;
+    left: 87% !important;
     transform: translateX(-80%) !important;
     transform: translateY(-500%) !important;
   }
@@ -287,7 +287,7 @@ body{
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .slider-controler .swiper-button-prev {
     left: 2% !important;
     transform: translateX(-80%) !important;
@@ -321,6 +321,7 @@ body{
   filter: drop-shadow(0px 8px 24px rgba(228, 33, 33, 0.1));
   width: 16px;
   height: 16px;
+
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
