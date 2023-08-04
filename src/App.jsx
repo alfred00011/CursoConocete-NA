@@ -1,3 +1,4 @@
+import BenefitsContent from './components/benefits/BenefitsContent'
 import CourseContent from './components/content/CourseContent'
 import Header from './components/header/Header'
 import HomeContent from './components/home/HomeContent'
@@ -11,6 +12,8 @@ function App() {
       <Header/>
       <HomeContent/>
       <CourseContent/>
+      <BenefitsContent/>
+      
     </>
   )
 }

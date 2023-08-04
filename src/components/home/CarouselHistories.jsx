@@ -5,7 +5,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { BsFillArrowLeftCircleFill,BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 
 import images from "../../helpers/ImgHistories";
@@ -29,7 +29,7 @@ const CarouselHistories = () => {
                         modifier: 3.5,
                     }
                 }
-                pagination={{el:'.swiper-pagination',clickable:true }}
+                pagination={{el:'.swiper-pagination',clickable:true, dynamicBullets: true }}
                 navigation={{
                     nextEl:'.swiper-button-next',
                     prevEl:'.swiper-button-prev',
