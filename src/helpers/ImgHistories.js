@@ -1,11 +1,11 @@
-import imgNA1 from "../assets/img/NA-1.jpeg"
-import imgNA2 from "../assets/img/NA-2.jpeg"
-import imgNA3 from "../assets/img/NA-3.jpeg"
-import imgNA4 from "../assets/img/NA-4.jpeg"
-import imgNA5 from "../assets/img/NA-5.jpeg"
-import imgNA6 from "../assets/img/NA-6.jpeg"
-import imgNA7 from "../assets/img/NA-7.jpeg"
-import imgNA8 from "../assets/img/NA-8.jpeg"
+import imgNA1 from "../assets/images/NA-1.jpeg"
+import imgNA2 from "../assets/images/NA-2.jpeg"
+import imgNA3 from "../assets/images/NA-3.jpeg"
+import imgNA4 from "../assets/images/NA-4.jpeg"
+import imgNA5 from "../assets/images/NA-5.jpeg"
+import imgNA6 from "../assets/images/NA-6.jpeg"
+import imgNA7 from "../assets/images/NA-7.jpeg"
+import imgNA8 from "../assets/images/NA-8.jpeg"
 
 const ImgHistories = [
     {
