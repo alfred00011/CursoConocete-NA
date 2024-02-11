@@ -1,3 +1,4 @@
+import React from "react";
 import TitleComponent from "../common/TitleComponent";
 
 import MapaContent from "../../assets/images/mapa.png";

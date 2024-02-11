@@ -1,14 +1,14 @@
-/* eslint-disable react/prop-types */
+import React from "react";
 
 const TitleComponent = (props) => {
-    return (
-        <div className="title_wrapper">
-            <span className="service_title">
-                {props.title}
-            </span>
-            <h1>{props.subtitle}</h1>
-        </div>
-    )
+  return (
+    <div className="title_wrapper">
+      <span className="service_title">
+        {props.title}
+      </span>
+      <h1>{props.subtitle}</h1>
+    </div>
+  )
 }
 
-export default TitleComponent;
+export default TitleComponent

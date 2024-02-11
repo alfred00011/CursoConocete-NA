@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import React from 'react';
 import CarouselHistories from "./CarouselHistories";
 
 let easeing = [0.6,-0.05,0.01,0.99];
